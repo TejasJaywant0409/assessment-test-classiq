@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard – ClassIQ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dash">
+  <header class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a class="brand" href="index.html"><img src="assets/logo.svg" alt="">ClassIQ</a>
+        <a class="nav-link" href="index.html">Dashboard</a>
+      </div>
+      <div class="nav-right">
+        <a class="btn btn-dark" href="login.html">Login</a>
+        <a class="btn btn-dark" href="signup.html">SignUp</a>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="dash-banner">
+      <h2>Enroll in&nbsp; Your Fav Courses</h2>
+      <div class="avatar-wrap"><img src="assets/avatar2.svg" alt=""></div>
+    </section>
+    <h2 class="all-courses">All Courses
+      <svg viewBox="0 0 24 24" fill="#3a3a3a" aria-hidden="true"><path d="M14 4l8 7-8 7v-4c-6 0-10 2-12 6 1-7 5-12 12-12z"/></svg>
+    </h2>
+    <div class="dash-grid" id="course-grid">
+      <div class="dash-card"></div>
+      <div class="dash-card"></div>
+      <div class="dash-card"></div>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

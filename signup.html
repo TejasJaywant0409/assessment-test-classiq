@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SignUp – ClassIQ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth">
+  <header class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a class="brand" href="index.html"><img src="assets/logo.svg" alt="">ClassIQ</a>
+        <a class="nav-link" href="index.html#courses">Cources</a>
+      </div>
+      <div class="nav-right">
+        <a class="btn btn-dark" href="login.html">Login</a>
+        <a class="btn btn-dark" href="signup.html">SignUp</a>
+      </div>
+    </div>
+  </header>
+  <main class="auth-wrap">
+    <section class="auth-card">
+      <h1>SignUp</h1>
+      <form id="signup-form" novalidate>
+        <div class="field"><input type="email" name="email" placeholder="Enter Your Email" autocomplete="email" aria-label="Email"><span class="err"></span></div>
+        <div class="field"><input type="text" name="fullname" placeholder="Enter Your Fullname" autocomplete="name" aria-label="Full name"><span class="err"></span></div>
+        <div class="field"><input type="password" name="password" placeholder="Enter Your Password" autocomplete="new-password" aria-label="Password"><span class="err"></span></div>
+        <button class="btn btn-submit" type="submit">SignUp</button>
+      </form>
+      <p class="auth-alt">Already have an account? <a href="login.html">Login</a></p>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
